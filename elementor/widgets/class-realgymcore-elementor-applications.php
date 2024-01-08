@@ -1,0 +1,216 @@
+<?php
+/**
+ * Realgymcore Elementor Applications
+ *
+ * @author  Balcomsoft
+ * @package Realgymcore
+ * @version 1.0.0
+ * @since   1.0.0
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	die();
+}
+
+use Elementor\Widget_Base;
+use Elementor\Controls_Manager;
+use Elementor\Group_Control_Image_Size;
+use Elementor\Group_Control_Css_Filter;
+use Elementor\Group_Control_Box_Shadow;
+use Elementor\Group_Control_Border;
+use Elementor\Group_Control_Typography;
+use Elementor\Core\Schemes\Typography;
+use Elementor\Icons_Manager;
+
+if ( ! class_exists( 'Realgymcore_Elementor_Applications' ) ) {
+	/**
+	 * Realgymcore shortcode class
+	 *
+	 * @return void
+	 */
+	class Realgymcore_Elementor_Applications extends Widget_Base {
+		/**
+		 * Slug
+		 *
+		 * @var string
+		 */
+		protected $slug = 'realgymcore-elementor-applications';
+
+		/**
+		 * Handler Stiles, Javascript files.
+		 *
+		 * @var string
+		 */
+		protected $handler = 'realgymcore-vc-applications';
+		/**
+		 * Name escaped
+		 *
+		 * @var string
+		 */
+		protected $name_escaped;
+
+		/**
+		 * Get style depends
+		 *
+		 * @return string[]
+		 */
+		public function get_style_depends() {
+
+			if ( file_exists( REALGYMCORE_PATH . '/assets/css/components/' . $this->handler . '.css' ) ) {
+					wp_register_style( $this->handler, REALGYMCORE_CSS . '/components/' . $this->handler . '.css', array(), REALGYMCORE_VERSION );
+			}
+
+			return array( $this->slug, $this->handler );
+
+		}
+
+		/**
+		 * Get javascript depends
+		 *
+		 * @return string[]
+		 */
+		public function get_script_depends() {
+			if ( file_exists( REALGYMCORE_PATH . '/assets/js/components/' . $this->handler . '.js' ) ) {
+				wp_register_script( $this->handler, REALGYMCORE_JS . '/components/' . $this->handler . '.js', array( 'jquery' ), REALGYMCORE_VERSION, true );
+			}
+			return array( $this->slug, $this->handler );
+		}
+
+		/**
+		 * Get Name.
+		 *
+		 * @return string
+		 */
+		public function get_name() {
+			return $this->slug;
+		}
+
+		/**
+		 *  Get Title
+		 */
+		public function get_title() {
+			return esc_html__( 'Applications Section', 'realgymcore' );
+		}
+
+		/**
+		 * Get Icon.
+		 *
+		 * @return string
+		 */
+		public function get_icon() {
+			return 'realgymcore-elementor-icon';
+		}
+
+		/**
+		 * Get Categories.
+		 *
+		 * @return string[]
+		 */
+		public function get_categories() {
+			return array( 'realgymcore-widgets' );
+		}
+
+		/**
+		 * Get General options.
+		 *
+		 * @author Balcomsoft
+		 */
+		protected function get_general_options() {
+			$this->start_controls_section(
+				'general_section',
+				array(
+					'label' => esc_html__( 'General Settings', 'realgymcore' ),
+					'tab'   => Controls_Manager::TAB_CONTENT,
+				)
+			);
+			$this->add_control(
+				'title',
+				array(
+					'label'       => esc_html__( 'Title', 'realgymcore' ),
+					'type'        => Controls_Manager::TEXT,
+					'placeholder' => esc_html__( 'If Title is empty, default Title will be shown from Theme Options', 'realgymcore' ),
+				)
+			);
+
+			$this->add_control(
+				'description',
+				array(
+					'label'       => esc_html__( 'Description', 'realgymcore' ),
+					'type'        => \Elementor\Controls_Manager::TEXTAREA,
+					'rows'        => 10,
+					'placeholder' => esc_html__( 'If Description is empty, default Description will be shown from Theme Options', 'realgymcore' ),
+				)
+			);
+			$this->add_control(
+				'bg_image_id',
+				array(
+					'label'   => esc_html__( 'Background Image', 'tigon-elementor' ),
+					'type'    => \Elementor\Controls_Manager::MEDIA,
+					'default' => array(
+						'url' => \Elementor\Utils::get_placeholder_image_src(),
+					),
+				)
+			);
+			$this->add_control(
+				'image_id',
+				array(
+					'label'   => esc_html__( 'Screen Image', 'tigon-elementor' ),
+					'type'    => \Elementor\Controls_Manager::MEDIA,
+					'default' => array(
+						'url' => \Elementor\Utils::get_placeholder_image_src(),
+					),
+				)
+			);
+
+			$this->add_control(
+				'image_size',
+				array(
+					'label'       => esc_html__( 'Image Size', 'realgymcore' ),
+					'type'        => Controls_Manager::TEXT,
+					'default'     => 'full',
+					'placeholder' => esc_html__( 'Enter image size (Example: "thumbnail", "medium", "large", "full" or other sizes defined by theme). Alternatively enter size in pixels (Example: 200x100 (Width x Height)).', 'realgymcore' ),
+				)
+			);
+			realgymcore_elementor_regular_fields( 'element_class', array(), $this );
+			realgymcore_elementor_regular_fields( 'element_id', array(), $this );
+			realgymcore_elementor_regular_fields( 'css', array(), $this );
+
+			$this->end_controls_section();
+
+		}
+
+		/**
+		 * Register Controls.
+		 *
+		 * @author Balcomsoft
+		 */
+		protected function register_controls() {
+			$this->get_general_options();
+		}
+
+		/**
+		 * Render.
+		 */
+		protected function render() {
+			$atts                 = $this->get_settings_for_display();
+			$atts['unique_class'] = 'realgymcore-elementor-' . realgymcore_generate_random_class();
+
+			if ( isset( $atts['bg_image_id'] ) ) {
+				$atts['bg_image_id'] = $atts['bg_image_id']['id'];
+			}
+			if ( isset( $atts['image_id'] ) ) {
+				$atts['image_id'] = $atts['image_id']['id'];
+			}
+
+			if ( ! empty( $content ) ) {
+				$atts['content'] = $content;
+			}
+			$arg_strings = realgymcore_elementor_args( $atts );
+
+			echo do_shortcode( '[realgymcore-vc-applications-shortcode ' . $arg_strings . ']' );
+		}
+	}
+
+	\Elementor\Plugin::instance()->widgets_manager->register( new Realgymcore_Elementor_Applications() );
+
+}

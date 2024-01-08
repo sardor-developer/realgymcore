@@ -1,0 +1,50 @@
+.realgym-featured-products-slider .swiper-slide {
+	max-width: initial;
+}
+.featured-swiper-button-next, .featured-swiper-button-prev {
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	top: 0;
+	border-radius: 100%;
+	z-index: 2;
+	margin: auto;
+	-webkit-transform: translateY(-40px);
+		-ms-transform: translateY(-40px);
+			transform: translateY(-40px);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+}
+.featured-swiper-button-prev {
+	left: 30px;
+	right: unset;
+}
+.featured-swiper-button-next:after, .featured-swiper-button-prev:after {
+	font-family: swiper-icons, sans-serif;
+	text-transform: none !important;
+	letter-spacing: 0;
+	font-variant: initial;
+	line-height: 1;
+	font-size: 26px;
+	color: #000;
+	font-weight: 700;
+}
+.featured-swiper-button-next:after {
+	content: 'next';
+}
+.featured-swiper-button-prev:after {
+	content: 'prev';
+}
+.realgym-featured-products-slider .swiper-button-disabled {
+	display: none;
+}

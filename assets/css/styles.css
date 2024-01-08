@@ -1,0 +1,49 @@
+.realgymcore-button-left {
+	text-align: right;
+}
+
+.realgymcore-margin-bottom-40 {
+	margin-bottom: 40px;
+}
+
+.realgymcore-margin-bottom-60 {
+	margin-bottom: 60px;
+}
+
+
+.realgymcore-margin-bottom-25 {
+	margin-bottom: 25px;
+}
+
+.realgymcore-secondary-background{
+	background-color: var(--realgym-bg-secondary-color);
+}
+
+.realgymcore-testimonial-box .realgym-display-3 {
+	font: var(--realgym-display3) !important;
+}
+
+.realgymcore-testimonial-box .realgym-text-1 {
+	font: var(--realgym-text1) !important;
+}
+
+.realgymcore-linear-background {
+	background: linear-gradient(270.55deg, #DE0148 -6.51%, #BCFE2F 105.18%) !important;
+}
+
+.realgymcore-button-light .realgym_btn_filled {
+	background: var(--realgym-secondary-color-inverse) !important;
+}
+
+span.realgymcore-title-color-dark {
+	color: var(--realgym-bg-secondary-color) !important;
+	display: unset;
+}
+
+.realgymcore-text-right {
+	text-align: right;
+}
+
+.single-realgymcore-block header, .single-realgymcore-block footer{
+	display: none;
+}

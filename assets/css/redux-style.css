@@ -1,0 +1,33 @@
+.redux-realgymcore_settings .redux-container .redux-sidebar .redux-group-menu {
+	background-color: #fff;
+}
+.redux-realgymcore_settings .redux-container .redux-sidebar .redux-group-menu li a {
+	color: #000 !important;
+}
+.redux-realgymcore_settings .redux-container .redux-sidebar .redux-group-menu li a:hover {
+	color: #fff !important;
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.redux-realgymcore_settings .redux-container .redux-sidebar .redux-group-menu li.active a {
+	background-color: rgba(0, 0, 0, 0.9) !important;
+	color: #fff !important;
+}
+.redux-realgymcore_settings .redux-sidebar .redux-group-menu li.active>a,
+.redux-sidebar .redux-group-menu li.activeChild> {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+	color: #fff !important;
+}
+.redux-container-spinner .ui-widget .ui-spinner-button {
+	visibility: hidden;
+}
+.redux-container-spinner .spinner-wrpr .spinner-input {
+	width: 120px !important;
+	border-right: 1px solid #bfbfbf !important;
+	border-left: 1px solid #bfbfbf !important;
+}
+.redux-container-spinner .spinner-wrpr .spinner-input:focus {
+	-webkit-box-shadow: initial;
+	box-shadow: initial;
+}

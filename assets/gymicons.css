@@ -1,0 +1,225 @@
+@font-face {
+	font-family: 'GymIcons';
+	src: url('fonts/GymIcons.eot?roixg6');
+	src: url('fonts/GymIcons.eot?roixg6#iefix') format('embedded-opentype'),
+	url('fonts/GymIcons.woff?roixg6') format('woff'),
+	url('fonts/GymIcons.svg?roixg6#GymIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="gymicons-"], [class*=" gymicons-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'GymIcons' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.gymicons-barbell:before {
+	content: "\e900";
+}
+
+.gymicons-dumbbells:before {
+	content: "\e901";
+}
+
+.gymicons-treadmill:before {
+	content: "\e902";
+}
+
+.gymicons-stationary-bike:before {
+	content: "\e903";
+}
+
+.gymicons-sweatshirt:before {
+	content: "\e904";
+}
+
+.gymicons-shorts:before {
+	content: "\e905";
+}
+
+.gymicons-water-bottle:before {
+	content: "\e906";
+}
+
+.gymicons-changing-room:before {
+	content: "\e907";
+}
+
+.gymicons-shower-head:before {
+	content: "\e908";
+}
+
+.gymicons-sauna:before {
+	content: "\e909";
+}
+
+.gymicons-swimming-pool:before {
+	content: "\e90a";
+}
+
+.gymicons-yoga-position:before {
+	content: "\e90b";
+}
+
+.gymicons-muscle:before {
+	content: "\e90c";
+}
+
+.gymicons-gym:before {
+	content: "\e90d";
+}
+
+.gymicons-gym-1:before {
+	content: "\e90e";
+}
+
+.gymicons-sneaker:before {
+	content: "\e90f";
+}
+
+.gymicons-gym-machine:before {
+	content: "\e910";
+}
+
+.gymicons-pulsometer:before {
+	content: "\e911";
+}
+
+.gymicons-swedish-wall:before {
+	content: "\e912";
+}
+
+.gymicons-kettlebell:before {
+	content: "\e913";
+}
+
+.gymicons-scale:before {
+	content: "\e914";
+}
+
+.gymicons-chronometer:before {
+	content: "\e915";
+}
+
+.gymicons-waist:before {
+	content: "\e916";
+}
+
+.gymicons-wellness:before {
+	content: "\e917";
+}
+
+.gymicons-fruit:before {
+	content: "\e918";
+}
+
+.gymicons-power:before {
+	content: "\e919";
+}
+
+.gymicons-towel:before {
+	content: "\e91a";
+}
+
+.gymicons-jumping-rope:before {
+	content: "\e91b";
+}
+
+.gymicons-yoga-ball:before {
+	content: "\e91c";
+}
+
+.gymicons-yoga-mat:before {
+	content: "\e91d";
+}
+
+.gymicons-boxing-gloves:before {
+	content: "\e91e";
+}
+
+.gymicons-protein:before {
+	content: "\e91f";
+}
+
+.gymicons-whistle:before {
+	content: "\e920";
+}
+
+.gymicons-pommel-horse:before {
+	content: "\e921";
+}
+
+.gymicons-sport-bag:before {
+	content: "\e922";
+}
+
+.gymicons-boxing-bag:before {
+	content: "\e923";
+}
+
+.gymicons-trainer:before {
+	content: "\e924";
+}
+
+.gymicons-rowing:before {
+	content: "\e925";
+}
+
+.gymicons-app:before {
+	content: "\e926";
+}
+
+.gymicons-heart-rate:before {
+	content: "\e927";
+}
+
+.gymicons-weight:before {
+	content: "\e928";
+}
+
+.gymicons-energy-bar:before {
+	content: "\e929";
+}
+
+.gymicons-orange-juice:before {
+	content: "\e92a";
+}
+
+.gymicons-hand-grip:before {
+	content: "\e92b";
+}
+
+.gymicons-lockers:before {
+	content: "\e92c";
+}
+
+.gymicons-plan:before {
+	content: "\e92d";
+}
+
+.gymicons-medicine-ball:before {
+	content: "\e92e";
+}
+
+.gymicons-burn:before {
+	content: "\e92f";
+}
+
+.gymicons-abs:before {
+	content: "\e930";
+}
+
+.gymicons-gym-gloves:before {
+	content: "\e931";
+}

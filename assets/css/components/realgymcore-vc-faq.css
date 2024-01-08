@@ -1,0 +1,121 @@
+.realgym-faq {
+	margin-top: 40px;
+}
+.page-wrapper .realgym-faq ul{
+	padding: 0;
+	list-style: none;
+}
+.realgym-faq-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	cursor: pointer;
+	position: relative;
+}
+.realgym-faq-header.active .realgym-faq-icon {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.realgym-faq-header.active .realgym-faq-icon span:nth-child(1) {
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+.realgym-faq-header.active .realgym-faq-icon span:nth-child(2) {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.realgym-faq-header .icon-close {
+	margin-right: -6px;
+	display: none;
+}
+.realgym-faq-header h4 {
+	max-width: 90%;
+	transition: 0.2s;
+}
+
+.realgym-faq-header.active h4 {
+	color: var(--realgym-primary-color);
+}
+
+.realgym-faq-icon {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 7px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+.realgym-faq-icon span {
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	top: calc(50% - 1px);
+	background: var(--realgym-secondary-color-inverse);
+	display: block;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+	transition: .2s;
+}
+.realgym-faq-icon span:nth-child(2) {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+.realgym-faq-body {
+	display: none;
+	padding: 0;
+	margin-top: 20px;
+	opacity: 0.8;
+}
+.realgym-faq-item {
+	border-bottom: 1px solid var(--realgym-border-color);
+	padding: 30px 0;
+}
+.realgym-faq-item:first-child {
+	border-top: 1px solid var(--realgym-border-color);
+}
+.realgym-faq-2 .realgym-faq-item {
+	background: var(--realgym-bg-secondary-color);
+	border-bottom: none;
+	border-top: none;
+	-webkit-box-shadow: 0 4px 10px rgb(0 0 0 / 35%);
+			box-shadow: 0 4px 10px rgb(0 0 0 / 35%);
+}
+
+.realgym-faq-2 .realgym-faq-item:not(:last-child) {
+	margin-bottom: 20px;
+}
+.realgym-faq-2 .realgym-faq-header:not(.active) h4 {
+	color: var(--realgym-secondary-color-inverse);
+}
+.realgym-faq-2 .realgym-faq-header, .realgym-faq-2 .realgym-faq-body {
+	padding: 0 35px;
+}
+.realgym-faq-2 .realgym-faq-body {
+	padding-top: 12px;
+}
+.realgym-faq-2 .realgym-faq-icon {
+	right: 30px;
+}
+.realgym-faq-2 .realgym-faq-header .realgym-faq-icon span {
+	background: var(--realgym-secondary-color-inverse);
+}
+.realgym-faq-2 .realgym-faq-body p {
+	color: var(--realgym-secondary-color-inverse);
+}
+/*== Small Laptop and Tablet ==*/
+@media (max-width: 992px) {
+	.realgym-faq-2 .realgym-faq-header, .realgym-faq-2 .realgym-faq-body {
+		padding: 20px 30px;
+	}
+}

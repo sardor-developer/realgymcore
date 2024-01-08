@@ -1,0 +1,19 @@
+.realgym-list ul{
+	padding-left: 0;
+	list-style: none;
+}
+.realgym-list .realgym-list-item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	color: var(--realgym-secondary-color-inverse);
+	margin-bottom: 32px;
+}
+
+.realgym-list .realgym-list-item span {
+	margin-right: 16px;
+}
+
+.realgym-list-item span {
+	color: var(--realgym-primary-color);
+}

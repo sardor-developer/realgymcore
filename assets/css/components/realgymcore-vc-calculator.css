@@ -1,0 +1,358 @@
+/* BMI calc */
+.realgymcore-bmi {
+	color: var(--realgym-secondary-color-inverse);
+	position: relative;
+	padding: 68px 23px 68px 52px;
+}
+.realgymcore-bmi:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: var(--realgym-bg-secondary-color);
+	opacity: 0.8;
+	-webkit-box-shadow: 0px 4px 10px rgb(0 0 0 / 35%);
+			box-shadow: 0px 4px 10px rgb(0 0 0 / 35%);
+}
+.bmi-header {
+	position: relative;
+}
+.realgymcore-bmi .realgymcore-units-list {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: -0.01em;
+	text-transform: uppercase;
+	margin-bottom: 64px;
+	padding-left: 0;
+	list-style: none;
+}
+.realgymcore-bmi .realgymcore-units {
+	position: relative;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+	cursor: pointer;
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-units.active {
+	opacity: 1;
+}
+.realgymcore-bmi .realgymcore-units:not(:last-child) {
+	margin-right: 56px;
+}
+.realgymcore-bmi .realgymcore-metric {
+	width: 100%;
+}
+.realgymcore-bmi .realgymcore-metric input {
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	border-radius: 90px;
+	padding: 16px 0 16px 30px;
+	color: var(--realgym-secondary-color-inverse);
+	width: 100%;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.realgymcore-bmi .realgymcore-metric input::-webkit-input-placeholder {
+	color: var(--realgym-secondary-color-inverse);
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-metric input::-moz-placeholder {
+	color: var(--realgym-secondary-color-inverse);
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-metric input:-ms-input-placeholder {
+	color: var(--realgym-secondary-color-inverse);
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-metric input::-ms-input-placeholder {
+	color: var(--realgym-secondary-color-inverse);
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-metric input::placeholder {
+	color: var(--realgym-secondary-color-inverse);
+	opacity: 0.4;
+}
+.realgymcore-bmi .realgymcore-metric input:focus {
+	outline: none;
+	background: var(--realgym-primary-color-inverse);
+	border-color: var(--realgym-primary-color);
+}
+.realgymcore-bmi .realgymcore-metric > span {
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.realgymcore-bmi .realgymcore-metric-error {
+	visibility: hidden;
+	position: absolute;
+	bottom: -35px;
+	color: red;
+}
+.realgymcore-bmi .realgymcore-metric-error.active {
+	visibility: visible;
+}
+.realgymcore-bmi .realgymcore-gender {
+	margin-top: 53px;
+	margin-bottom: 44px;
+}
+.realgymcore-bmi .realgymcore-gender h4 {
+	color: var(--realgym-primary-color);
+}
+.realgymcore-bmi .realgymcore-bmi-result-unit {
+	position: relative;
+}
+.realgymcore-bmi .realgymcore-bmi-result-unit:after {
+	content: "2";
+	position: absolute;
+	top: -15px;
+	right: -5px;
+	font-size: 15px;
+}
+.realgymcore-bmi .realgymcore-bmi-status {
+	color: var(--realgym-primary-color);
+}
+.realgymcore-bmi .realgymcore-gender label {
+	margin-left: 26px;
+	cursor: pointer;
+}
+.realgymcore-bmi .realgymcore-gender label span {
+	margin-left: 8px;
+}
+.realgymcore-bmi .realgymcore-bmi-btn:not(.reset-wrapper) {
+	padding: 16px 40px;
+}
+.realgymcore-bmi .realgymcore-bmi-btn:not(.reset-wrapper):after {
+	z-index: 1;
+}
+.realgymcore-bmi .realgymcore-bmi-btn.reset-wrapper {
+	position: relative;
+	background-color: transparent;
+	-webkit-box-shadow: none;
+			box-shadow: none;
+	border: none;
+	color: var(--realgym-secondary-color-inverse);
+	-webkit-text-decoration: dashed;
+			text-decoration: dashed;
+	border-bottom: 1px dashed var(--realgym-secondary-color-inverse);
+	margin-left: 50px;
+	padding: 0;
+}
+.realgymcore-bmi .realgymcore-stats-content {
+	position: relative;
+	z-index: 3;
+}
+.realgymcore-bmi .realgymcore-stats-progress {
+	top: -64px;
+	left: 30px;
+	z-index: -1;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+}
+.realgymcore-bmi .realgymcore-stats li {
+	list-style: disc;
+}
+.realgymcore-bmi .realgymcore-stats h3 span {
+	color: var(--realgym-primary-color);
+}
+.realgymcore-bmi .realgymcore-stats p {
+	margin-bottom: 50px;
+}
+.realgymcore-bmi .realgymcore-stats .realgymcore-content {
+	position: relative;
+	z-index: 4;
+	left: -50px;
+}
+.realgymcore-bmi .realgymcore-stats .realgymcore-content li {
+	line-height: 34px;
+	white-space: nowrap;
+}
+.progress-wrapper {
+	position: relative;
+	width: 100%;
+	height: 391px;
+}
+.progress-ring {
+	position: absolute;
+	width: 386px;
+	height: 386px;
+	stroke-linecap: round;
+	stroke-dasharray: 570;
+	stroke-dashoffset: 570;
+	stroke: var(--realgym-secondary-color-inverse);
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.progress-ring:first-child {
+	stroke: var(--realgym-primary-color);
+	stroke-dasharray: 1212;
+	stroke-dashoffset: 1300;
+	z-index: 2;
+	-webkit-transform: scaleX(-1);
+		-ms-transform: scaleX(-1);
+			transform: scaleX(-1);
+}
+.progress-ring:last-child {
+	opacity: 0.1;
+}
+/* ==========  ==========*/
+.realgymcore-bmi input[type="radio"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: var(--realgym-secondary-color-inverse);
+	margin: 0;
+	font: inherit;
+	color: currentColor;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	-webkit-transform: translateY(-0.075em);
+		-ms-transform: translateY(-0.075em);
+			transform: translateY(-0.075em);
+}
+.realgymcore-bmi input[type="radio"]:hover {
+	background-color: var(--realgym-primary-color);
+}
+.realgymcore-bmi input[type="radio"]:checked {
+	background-color: var(--realgym-primary-color);
+}
+.realgymcore-bmi input[type="radio"] {
+	display: -ms-grid;
+	display: grid;
+	place-content: center;
+}
+.realgymcore-bmi input[type="radio"]::before {
+	position: absolute;
+	top: calc(50% - 5px);
+	left: calc(50% - 5px);
+	content: "";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	-webkit-transform: scale(0);
+		-ms-transform: scale(0);
+			transform: scale(0);
+	background-color: #04070B;
+	-webkit-transition: 120ms -webkit-transform ease-in-out;
+	transition: 120ms -webkit-transform ease-in-out;
+	-o-transition: 120ms transform ease-in-out;
+	transition: 120ms transform ease-in-out;
+	transition: 120ms transform ease-in-out, 120ms -webkit-transform ease-in-out;
+}
+.realgymcore-bmi input[type="radio"]:checked::before {
+	-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+			transform: scale(1);
+}
+.realgymcore-bmi input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+.realgymcore-bmi .realgymcore-nav-indicator {
+	position: absolute;
+	bottom: -10px;
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s;
+	height: 3px;
+	z-index: 1;
+	left: 0;
+}
+.realgymcore-bmi circle {
+	cx: 193;
+	cy: 193;
+	r: 180;
+}
+/* Statuses */
+.progress-ring.ex-obese {
+	stroke-dasharray: 980;
+}
+.progress-ring.obese {
+	stroke-dasharray: 1030;
+}
+.progress-ring.overweight {
+	stroke-dasharray: 1080;
+}
+.progress-ring.healthy {
+	stroke-dasharray: 1130;
+}
+.progress-ring.underweight {
+	stroke-dasharray: 1180;
+}
+/* Round */
+/* MEDIA */
+@media only screen and (max-width: 1196px) {
+	.realgymcore-bmi circle {
+		r: 150;
+	}
+	.progress-ring {
+		stroke-dasharray: 500;
+		stroke-dashoffset: 528;
+	}
+	.progress-ring:first-child {
+		stroke-dasharray: 1120;
+		stroke-dashoffset: 1300;
+	}
+	/* Statuses */
+	.progress-ring.ex-obese {
+		stroke-dasharray: 960;
+	}
+	.progress-ring.obese {
+		stroke-dasharray: 990;
+	}
+	.progress-ring.overweight {
+		stroke-dasharray: 1020;
+	}
+	.progress-ring.healthy {
+		stroke-dasharray: 1050;
+	}
+	.progress-ring.underweight {
+		stroke-dasharray: 1080;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.realgymcore-bmi {
+		padding: 50px;
+	}
+	.realgymcore-bmi .realgymcore-stats-progress {
+		margin-top: 150px;
+	}
+	.realgymcore-bmi .realgymcore-stats .realgymcore-content {
+		left: initial;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.realgymcore-bmi .realgymcore-metric {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.realgymcore-bmi .realgymcore-gender {
+		margin-top: 20px;
+	}
+	.realgymcore-bmi .realgymcore-metric-error {
+		bottom: -10px;
+	}
+	.realgymcore-bmi .realgymcore-stats .realgymcore-content li {
+		white-space: initial;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.realgymcore-bmi {
+		padding: 30px;
+	}
+}

@@ -1,0 +1,2136 @@
+# Copyright (C) 2022 Balcomsoft
+# This file is distributed under the http://www.gnu.org/licenses/gpl.html.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: RealGym Core Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/realgymcore\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-27 09:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: realgymcore\n"
+"\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:129
+msgid "09:00 - 13:00"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:131
+msgid "09:00 - 18:00"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:90
+msgid "1 item per row"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:95
+msgid "12 items per row"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:126
+msgid "12.1"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:130
+msgid "13:00 - 18:00"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:124
+msgid "18.5 kg/m2 - 25 kg/m2"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:91
+msgid "2 items per row"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:82
+#: views/realgymcore-plans-loop-item.php:54
+#: vc-components/output/realgymcore-vc-pricing-plans.php:181
+msgid "24/7 GYM manager support"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:92
+msgid "3 items per row"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:93
+msgid "4 items per row"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:94
+msgid "6 items per row"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:125
+msgid "63.2 kgs - 85.5 kgs"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:103
+msgid "888888888"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:112
+msgid ""
+"<a href=\"https://snazzymaps.com\" target=\"_blank\">SnazzyMaps</a> is a "
+"free tool for you to create and explore map styles"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:94
+msgid "ABS"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-pricing-plans.php:101
+#: vc-components/output/realgymcore-vc-pricing-plans.php:115
+msgid "active"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:144
+msgid "Activity"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:77
+msgid "Add Class by title."
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:80
+msgid "Add faqs by title."
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:103
+#: inc/taxonomies/class-realgymcore-product-brands.php:150
+msgid "Add Image"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:47
+msgid "Add New"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:59
+msgid "Add New Brand"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:46
+msgid "Add New Item"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:86
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:80
+msgid "Add Opacity"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:246
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:80
+msgid "Add shadow"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-video.php:69
+msgid "Add video by title."
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-counter.php:82
+#: vc-components/mapping/class-realgymcore-vc-team.php:96
+#: vc-components/mapping/class-realgymcore-vc-team.php:114
+msgid "Addition"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:66
+msgid "Age (years)"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:68
+msgid "Ages: 2-100"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:56
+msgid "All Brands"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:45
+msgid "All Items"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:55
+msgid "Animation"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:84
+msgid "App"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:48
+msgid "Applications Section"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:108
+msgid "Ascending"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:29
+msgid "Author Block"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:41
+msgid "Author Description"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:35
+msgid "Author Name"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:139
+msgid "Autoplay Speed (ms)"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:51
+#: inc/functions/realgymcore-vc-elements.php:97
+#: inc/functions/realgymcore-vc-elements.php:133
+msgid ""
+"Background Color based on Theme Color Configuration. It should not be used "
+"when custom background color is active"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:48
+#: inc/functions/realgymcore-vc-elements.php:94
+#: inc/functions/realgymcore-vc-elements.php:130
+msgid "Background Color Style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:77
+msgid "Background Image"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:62
+#: inc/functions/realgymcore-vc-elements.php:108
+#: inc/functions/realgymcore-vc-elements.php:144
+#: inc/functions/realgymcore-vc-elements.php:169
+msgid "Background Image Positions"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:59
+#: inc/functions/realgymcore-vc-elements.php:105
+#: inc/functions/realgymcore-vc-elements.php:141
+#: inc/functions/realgymcore-vc-elements.php:166
+msgid "Background Position"
+msgstr ""
+
+#. Author of the plugin
+msgid "Balcomsoft"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:40
+msgid "Barbell"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:100
+msgid "Block Shortcode"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-blog.php:48
+msgid "Blog Section"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:116
+msgid "BMI"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:46
+msgid "Bottle"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:78
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:77
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:79
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:81
+msgid "Boxing Bag"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:76
+msgid "Boxing Gloves"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:54
+msgid "Brand"
+msgstr ""
+
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:30
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:88
+#: inc/taxonomies/class-realgymcore-product-brands.php:53
+#: inc/taxonomies/class-realgymcore-product-brands.php:61
+msgid "Brands"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:93
+msgid "Burn"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:149
+msgid "Button"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:106
+msgid "Button icon"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:89
+msgid "Button label"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:96
+msgid "Button URL"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:95
+msgid "Buttons"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:99
+msgid "Calculate"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-calculator.php:48
+msgid "Calculator"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:88
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:71
+msgid "Card Style"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:116
+msgid "Cardio training"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:75
+msgid "Center"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:74
+msgid "Center Left"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:76
+msgid "Center Right"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:47
+msgid "Changing Room"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:37
+msgid "Choose Header Position"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:100
+msgid "Choose one of option"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-template-block.php:67
+msgid "Choose Template Block"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:129
+#: vc-components/mapping/class-realgymcore-vc-list.php:96
+msgid "Choose text color"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:65
+msgid "Chronometer"
+msgstr ""
+
+#: post-types/class-realgymcore-classes-post-type.php:64
+msgid "Class"
+msgstr ""
+
+#: views/realgymcore-class-loop-item.php:32
+msgid "Class Full"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:91
+msgid "Class Fullness"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:109
+msgid "Class Icon"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:122
+msgid "Class Information"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:61
+msgid "Class Period"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:29
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:75
+msgid "Classes"
+msgstr ""
+
+#: inc/classes/class-realgymcore-classes-list-widget.php:98
+msgid "Classes list"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:50
+msgid "Classes Timetable"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:100
+msgid "Clear"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:47
+msgid "Client Type"
+msgstr ""
+
+#: inc/functions/realgymcore-global-plugin-functions.php:148
+msgid "Close"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:35
+#: vc-components/output/realgymcore-vc-calculator.php:73
+msgid "cm"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:58
+msgid "Colors"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:117
+msgid "Contact Details"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:102
+msgid "Contact Us"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:151
+msgid "Copy this shortcode and paste it into your post, page, or mega menu:"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-counter.php:77
+#: vc-components/mapping/class-realgymcore-vc-team.php:90
+#: vc-components/mapping/class-realgymcore-vc-team.php:108
+msgid "Count"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-counter.php:50
+msgid "Counter"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:134
+msgid "CSS"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:362
+msgid "Custom Text (Supports Simple HTML Tags)"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:14
+msgid "Dark Style"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:13
+#: inc/classes/class-realgymcore-vc-commons.php:42
+#: inc/classes/class-realgymcore-vc-commons.php:56
+#: inc/classes/class-realgymcore-vc-commons.php:135
+#: inc/classes/class-realgymcore-vc-commons.php:156
+msgid "Default"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:144
+msgid "Desc 1"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:145
+msgid "Desc 2"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:109
+msgid "Descending"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:71
+#: vc-components/mapping/class-realgymcore-vc-counter.php:87
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:110
+#: vc-components/mapping/class-realgymcore-vc-team.php:102
+#: vc-components/mapping/class-realgymcore-vc-team.php:120
+msgid "Description"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:136
+msgid "Design options"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:104
+msgid ""
+"Disable controls (rotate, scale, zoom, street view, full screen, map type)"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:95
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:136
+msgid "Display 1"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:137
+msgid "Display 2"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:138
+msgid "Display 3"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:139
+msgid "Display 4"
+msgstr ""
+
+#: inc/classes/class-realgymcore-classes-list-widget.php:25
+msgid "Display Classes list as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-plans-list-widget.php:25
+msgid "Display Plans list as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-categories-widget.php:26
+msgid "Display Post Categories as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:25
+msgid "Display Product Brands Filter as a Widget on Product Archive Page"
+msgstr ""
+
+#: inc/classes/class-realgymcore-recent-posts-widget.php:26
+msgid "Display Recent posts as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-search-widget.php:26
+msgid "Display Search as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-tag-cloud-widget.php:26
+msgid "Display Tag Cloud as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-video-categories-widget.php:26
+msgid "Display Video Categories as a Widget"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:41
+msgid "Dumbbells"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:72
+msgid "Each Line will be known as different element"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:57
+msgid "Edit Brand"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:49
+msgid "Edit Item"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:147
+msgid "Email"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:126
+msgid "Email:"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:128
+msgid "Enable Autoplay"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:149
+msgid "Enable Loop"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:203
+msgid "End Time"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:87
+msgid "Energy Bar"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:42
+msgid "Enter Author Description"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:36
+msgid "Enter Author Name"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:48
+msgid "Enter Client Type"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:90
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by theme). Alternatively enter size in pixels (Example: "
+"200x100 (Width x Height))."
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:74
+msgid "Enter Rating"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:80
+msgid "Enter Review Description"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:68
+msgid "Enter Reviews Count Text"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:138
+msgid ""
+"Example: -0.127758. You can use <a href=\"https://www.latlong.net/\" "
+"target=\"_blank\">this tool</a> to look up Latitude and Longitude for a "
+"location."
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:131
+msgid ""
+"Example: 51.507351. You can use <a href=\"https://www.latlong.net/\" "
+"target=\"_blank\">this tool</a> to look up Latitude and Longitude for a "
+"location."
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:63
+msgid "Experience"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:44
+msgid "Extremely obese"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:29
+msgid "Facebook"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:205
+msgid "Fading Animation"
+msgstr ""
+
+#: post-types/class-realgymcore-faq-post-type.php:64
+msgid "FAQS"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:49
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:78
+msgid "FAQs"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:130
+msgid "Fat loss"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:56
+msgid "Featured Image"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:95
+msgid "Female"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:101
+#: views/realgymcore-plans-loop-item.php:101
+#: vc-components/output/realgymcore-vc-pricing-plans.php:219
+msgid "Fight zone & Relaxing room"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:123
+msgid "Filled"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-blog.php:64
+msgid "Filter"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:64
+msgid "Filter items list"
+msgstr ""
+
+#: views/realgymcore-team-loop-item-2.php:29
+msgid "Follow"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:123
+msgid "Footer"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:244
+msgid "Fri"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:188
+#: vc-components/output/realgymcore-vc-schedule.php:40
+#: vc-components/output/realgymcore-vc-timetable.php:54
+msgid "Friday"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:70
+msgid "Friut"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:38
+msgid "ft."
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:88
+msgid "Gender"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:37
+msgid "General"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:52
+#: metaboxes/realgymcore-team-meta-settings.php:35
+msgid "General Information"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:50
+msgid "Google Map"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:45
+msgid "Gradient"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:68
+msgid "Grid"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:55
+#: inc/classes/class-realgymcore-constants.php:56
+msgid "Gym"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:95
+msgid "Gym Gloves"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:58
+msgid "Gym Machine"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:89
+msgid "Hand Grip"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:24
+msgid "Header"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:49
+msgid "Heading with button"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:41
+#: vc-components/output/realgymcore-vc-calculator.php:118
+msgid "Healthy"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:124
+msgid "Healthy BMI range:"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:125
+msgid "Healthy weight for the height:"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:85
+msgid "Heart Rate"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:73
+msgid "Height"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:59
+msgid "Hide Both"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:232
+msgid "Hide Default Margin?"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:62
+msgid "How can we help?"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:115
+msgid "HTML Class"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:125
+msgid "HTML ID"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.balcomsoft.com/"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:117
+msgid "Icon"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:50
+msgid "Icon box"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:73
+msgid "Icon box Style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:127
+#: vc-components/mapping/class-realgymcore-vc-list.php:94
+msgid "Icon color"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-team.php:79
+msgid "Icon Image"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:116
+msgid "Icon position"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:122
+#: vc-components/mapping/class-realgymcore-vc-list.php:89
+msgid "Icon size"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:73
+msgid ""
+"If Description is empty, default Description will be shown from Theme Options"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:67
+msgid "If Title is empty, default Title will be shown from Theme Options"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:64
+msgid "If you need any help from us, you can contact us now"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:279
+msgid "Image Responsive?"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:87
+msgid "Image Size"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:130
+msgid "Image:"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:104
+msgid "info.gym@example.com"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:60
+msgid "Insert into item"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:28
+msgid "Instagram"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:42
+msgid "Item Archives"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:43
+msgid "Item Attributes"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-counter.php:73
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:96
+msgid "Items"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:62
+msgid "Items list"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:63
+msgid "Items list navigation"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:97
+msgid "Items Per Row"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:88
+msgid "Items per Row"
+msgstr ""
+
+#: inc/functions/realgymcore-global-plugin-functions.php:147
+msgid "Join Class Form"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:92
+msgid "Join class now"
+msgstr ""
+
+#: views/realgymcore-plans-loop-item.php:114
+#: vc-components/output/realgymcore-vc-pricing-plans.php:231
+msgid "Join us"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:53
+msgid "Joining Date"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:73
+msgid "Jumping Rope"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:61
+msgid "Kettlebell"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:36
+#: vc-components/output/realgymcore-vc-calculator.php:80
+#: vc-components/output/realgymcore-vc-calculator.php:81
+msgid "kg"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:117
+msgid "kg/m"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:126
+msgid "kg/m3"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:37
+msgid "kgs"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-latestposts.php:49
+msgid "Latest Posts"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:129
+msgid "Latitude"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:39
+msgid "lbs"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-list.php:84
+#: vc-components/mapping/class-realgymcore-vc-slider.php:77
+#: vc-components/mapping/class-realgymcore-vc-slider.php:90
+#: vc-components/mapping/class-realgymcore-vc-slider.php:107
+msgid "Leave empty to disable"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:120
+msgid "Left"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:15
+msgid "Light Style"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:79
+msgid "Limit"
+msgstr ""
+
+#: inc/classes/class-realgymcore-recent-posts-widget.php:115
+msgid "Limit:"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:78
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:99
+msgid "Link"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:27
+msgid "LinkedIn"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-list.php:50
+msgid "List"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-list.php:83
+msgid "List icon"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-list.php:76
+msgid "List text"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:123
+msgid "Location name"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:90
+msgid "Lockers"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:136
+msgid "Longitude"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:91
+msgid "Male"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:83
+msgid "Map center coordinates"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:100
+msgid "Map controls"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:67
+msgid "Map height"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:71
+msgid "Map height in pixels"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:109
+msgid "Map style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:75
+msgid "Map zoom"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:79
+msgid "Map zoom level"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:92
+msgid "Medicine Ball"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:24
+msgid "Member Settings"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:55
+msgid "Metric Units"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:240
+msgid "Mon"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:184
+#: vc-components/output/realgymcore-vc-schedule.php:36
+#: vc-components/output/realgymcore-vc-timetable.php:50
+msgid "Monday"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:34
+msgid "Monthly"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:91
+msgid "Mouse wheel zoom"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:54
+msgid "Muscle"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:60
+msgid "New Brand"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:48
+msgid "New Item"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:58
+msgid "No Padding Bottom"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:57
+msgid "No Padding Top"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:73
+msgid "None"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:54
+msgid "Not found"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:55
+msgid "Not found in Trash"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:103
+#: metaboxes/realgymcore-team-meta-settings.php:117
+#: metaboxes/realgymcore-team-meta-settings.php:131
+#: metaboxes/realgymcore-team-meta-settings.php:145
+msgid "Numbers counted as percentage(%), will be between 0 to 100, default: 50"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:43
+msgid "Obese"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-videos.php:68
+msgid "Only featured videos"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:181
+msgid "Only supports: span, p, br, em and strong tags"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:88
+msgid "Orange Juice"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:106
+msgid "Order"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:124
+msgid "Outlined"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:42
+msgid "Overweight"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:73
+#: inc/functions/realgymcore-vc-elements.php:119
+#: inc/functions/realgymcore-vc-elements.php:155
+msgid "Padding sizes are based on Theme Color Configuration."
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:17
+msgid "Page Settings"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:66
+msgid "Page Title"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:44
+msgid "Parent Item:"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:93
+msgid "Personal Skills"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:138
+msgid "Phone Number"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:122
+msgid "Phone:"
+msgstr ""
+
+#: post-types/class-realgymcore-pricing-plan-post-type.php:65
+#: inc/classes/class-realgymcore-constants.php:91
+msgid "Plan"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:58
+msgid "Plan Card Style 1"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:59
+msgid "Plan Card Style 2"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:73
+msgid "Plan Features"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:55
+msgid "Plan Price"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:46
+msgid "Plan Subtitle"
+msgstr ""
+
+#: inc/classes/class-realgymcore-plans-list-widget.php:98
+msgid "Plans list"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:85
+msgid "Please enter a valid information"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:217
+msgid "Please set class colors in timetable "
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:166
+msgid "Please set Class week day and time."
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:79
+msgid "Pommel Horse"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:126
+msgid "Ponderal Index:"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:65
+#: views/realgymcore-plans-loop-item.php:35
+#: vc-components/output/realgymcore-vc-pricing-plans.php:159
+msgid "Popular Plan"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:25
+msgid "Post"
+msgstr ""
+
+#: inc/classes/class-realgymcore-categories-widget.php:105
+msgid "Post categories"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:38
+msgctxt "Post Type General Name"
+msgid "RealGym Template Builder"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:39
+msgctxt "Post Type Singular Name"
+msgid "RealGym Template Builder"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:61
+msgid "Post Types"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:49
+msgid "Posts"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:71
+msgid "Power"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:100
+#: inc/classes/class-realgymcore-class-info-widget.php:73
+msgid "Price"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:30
+msgid "Pricing Plan"
+msgstr ""
+
+#: post-types/class-realgymcore-pricing-plan-post-type.php:99
+msgid "Pricing plan category"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:48
+msgid "Pricing Plans"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:43
+msgid "Primary"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:77
+msgid "Protein"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:59
+msgid "Pulsometer"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:73
+msgid "Rating"
+msgstr ""
+
+#: inc/classes/class-realgymcore-recent-posts-widget.php:64
+msgid "Recent post image"
+msgstr ""
+
+#: inc/classes/class-realgymcore-recent-posts-widget.php:100
+msgid "Recent posts"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:58
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:104
+#: inc/taxonomies/class-realgymcore-product-brands.php:151
+msgid "Remove Image"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:108
+msgid "Render Type"
+msgstr ""
+
+#: views/realgymcore-reviews-list-1.php:74 views/realgymcore-reviews-list-2.php:61
+msgid "review"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:79
+msgid "Review Description"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:53
+msgid "Reviews Block"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:67
+msgid "Reviews Count Text"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:121
+msgid "Right"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:83
+msgid "Row as a Section?"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:83
+msgid "Rowing"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:245
+msgid "Sat"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:189
+#: vc-components/output/realgymcore-vc-schedule.php:41
+#: vc-components/output/realgymcore-vc-timetable.php:55
+msgid "Saturday"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:50
+msgid "Sauna"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:63
+msgid "Scale"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:82
+msgid "Screen Image"
+msgstr ""
+
+#: inc/classes/class-realgymcore-search-widget.php:75
+msgid "Search"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:55
+msgid "Search Brands"
+msgstr ""
+
+#: inc/classes/class-realgymcore-search-widget.php:53
+msgid "Search here"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:53
+msgid "Search Item"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:44
+msgid "Secondary"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-blog.php:67
+msgid "See All"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:79
+msgid "Select Pricing Type"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:182
+msgid "Select Week Day"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:57
+msgid "Set featured image"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:170
+msgid "Shortcode"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:45
+msgid "Shorts"
+msgstr ""
+
+#: metaboxes/realgymcore-page-meta-settings.php:129
+msgid "Show Applications Section"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-blog.php:76
+msgid "Show Categories"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:98
+msgid "Show Image"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:87
+msgid "Show this location as center of the map"
+msgstr ""
+
+#: metaboxes/realgymcore-video-meta-settings.php:35
+msgid "Show this video as featured"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:48
+msgid "Shower Head"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-schedule.php:50
+msgid "Single Class Schedule"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:76
+msgid "Slide title"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:69
+#: vc-components/mapping/class-realgymcore-vc-slider.php:49
+msgid "Slider"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:118
+msgid "Slider Navigation Type"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:57
+msgid "Sneaker"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:157
+msgid "Social Network"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:70
+#: inc/functions/realgymcore-vc-elements.php:116
+#: inc/functions/realgymcore-vc-elements.php:152
+msgid "Spacing Style"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:80
+msgid "Sport Bag"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:197
+msgid "Start time"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:43
+msgid "Stationery Bike"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:72
+msgid "Style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:59
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:58
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:60
+#: vc-components/mapping/class-realgymcore-vc-post.php:62
+msgid "Style 1"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:60
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:59
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:61
+#: vc-components/mapping/class-realgymcore-vc-post.php:63
+msgid "Style 2"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:62
+#: vc-components/mapping/class-realgymcore-vc-post.php:64
+msgid "Style 3"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-functions.php:118
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:44
+#: vc-components/mapping/class-realgymcore-vc-team.php:73
+msgid "Subtitle"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:246
+msgid "Sun"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:190
+#: vc-components/output/realgymcore-vc-timetable.php:56
+msgid "Sunday"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:27
+msgid "Swap with Div tag instead of Section?"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:44
+msgid "Sweatshirt"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:60
+msgid "Swedish Wall"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:52
+msgid "Swimming Pool"
+msgstr ""
+
+#: views/realgymcore-plans-loop-item.php:82
+#: vc-components/output/realgymcore-vc-pricing-plans.php:203
+msgid "Swimming pool"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:110
+msgid "Swimming pool access time period"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:91
+msgid "Table Row Height"
+msgstr ""
+
+#: inc/classes/class-realgymcore-tag-cloud-widget.php:83
+msgid "Tag Cloud"
+msgstr ""
+
+#: post-types/class-realgymcore-team-post-type.php:65
+#: inc/classes/class-realgymcore-vc-commons.php:26
+#: vc-components/mapping/class-realgymcore-vc-team.php:49
+msgid "Team"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-team.php:84
+msgid "Team Image"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-template-block.php:65
+msgid "Template Block"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:68
+msgid "Template Builder"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:61
+msgid "Testimonial Image"
+msgstr ""
+
+#: post-types/class-realgymcore-testimonials-post-type.php:66
+#: vc-components/mapping/class-realgymcore-vc-testimonials.php:57
+msgid "Testimonials"
+msgstr ""
+
+#: post-types/class-realgymcore-testimonials-post-type.php:143
+msgid "Testimonials category"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-testimonials.php:67
+msgid "Testimonials Slider 1"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-testimonials.php:68
+msgid "Testimonials Slider 2"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-testimonials.php:80
+msgid "Testimonials Slider Type"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:179
+msgid "Text (HTML)"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:140
+msgid "Text 1"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:141
+msgid "Text 2"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:142
+msgid "Text 3"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:143
+msgid "Text 4"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:159
+msgid "Text Capitalize"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:160
+msgid "Text Initial"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:158
+msgid "Text Lowercase"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:157
+msgid "Text Uppercase"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:70
+msgid "Theme Default"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin it's designed for RealGym Theme"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:243
+msgid "Thu"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:99
+#: inc/taxonomies/class-realgymcore-product-brands.php:139
+msgid "Thumbnail"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:187
+#: vc-components/output/realgymcore-vc-schedule.php:39
+#: vc-components/output/realgymcore-vc-timetable.php:53
+msgid "Thursday"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:61
+msgid "Time"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:108
+msgid "Time header background color"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:114
+msgid "Time header Text Color"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:163
+#: metaboxes/realgymcore-classes-meta-settings.php:171
+msgid "Timeslots"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:69
+msgid "Timetable"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:220
+msgid "Timetable Background Color"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:226
+msgid "Timetable Background Hover Color"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:214
+msgid "Timetable colors"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:154
+msgid "Timetable Settings"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:232
+msgid "Timetable Text Color"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:238
+msgid "Timetable Text Hover Color"
+msgstr ""
+
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:31
+#: inc/functions/realgymcore-vc-functions.php:70
+#: vc-components/mapping/class-realgymcore-vc-applications.php:65
+#: vc-components/mapping/class-realgymcore-vc-blog.php:65
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:101
+#: vc-components/mapping/class-realgymcore-vc-latestposts.php:67
+#: vc-components/mapping/class-realgymcore-vc-team.php:67
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:70
+msgid "Title"
+msgstr ""
+
+#: inc/classes/class-realgymcore-categories-widget.php:109
+#: inc/classes/class-realgymcore-class-info-widget.php:126
+#: inc/classes/class-realgymcore-classes-list-widget.php:102
+#: inc/classes/class-realgymcore-contact-us-widget.php:118
+#: inc/classes/class-realgymcore-plans-list-widget.php:102
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:92
+#: inc/classes/class-realgymcore-recent-posts-widget.php:110
+#: inc/classes/class-realgymcore-search-widget.php:79
+#: inc/classes/class-realgymcore-tag-cloud-widget.php:87
+#: inc/classes/class-realgymcore-video-categories-widget.php:87
+msgid "Title:"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:72
+msgid "Top Center"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:71
+msgid "Top Left"
+msgstr ""
+
+#: inc/classes/class-realgymcore-vc-commons.php:73
+msgid "Top Right"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:72
+msgid "Towel"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:125
+#: inc/classes/class-realgymcore-constants.php:82
+msgid "Trainer"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:129
+msgid "Trainer Name"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:65
+msgid "Training"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:42
+msgid "Treadmill"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:241
+msgid "Tue"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:185
+#: vc-components/output/realgymcore-vc-schedule.php:37
+#: vc-components/output/realgymcore-vc-timetable.php:51
+msgid "Tuesday"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:71
+msgid "Type"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:70
+#: metaboxes/realgymcore-team-meta-settings.php:72
+msgid "Type of Training"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:59
+msgid "Typography"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:40
+msgid "Underweight"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:92
+#: views/realgymcore-plans-loop-item.php:68
+#: vc-components/output/realgymcore-vc-pricing-plans.php:191
+msgid "Up to 45 days of freezing"
+msgstr ""
+
+#: inc/taxonomies/class-realgymcore-product-brands.php:58
+msgid "Update Brand"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:50
+msgid "Update Item"
+msgstr ""
+
+#: metaboxes/realgymcore-testimonials-meta-settings.php:62
+msgid "Upload any media using the WordPress native uploader"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:132
+msgid "Upload Image"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-slider.php:82
+msgid "Upload image"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:61
+msgid "Uploaded to this item"
+msgstr ""
+
+#: vc-components/output/realgymcore-vc-calculator.php:56
+msgid "US Units"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:59
+msgid "Use as featured image"
+msgstr ""
+
+#: metaboxes/realgymcore-video-meta-settings.php:23
+#: post-types/class-realgymcore-video-post-type.php:64
+#: inc/classes/class-realgymcore-vc-commons.php:28
+#: vc-components/mapping/class-realgymcore-vc-video.php:67
+msgid "Video"
+msgstr ""
+
+#: inc/classes/class-realgymcore-video-categories-widget.php:83
+msgid "Video categories"
+msgstr ""
+
+#: post-types/class-realgymcore-video-post-type.php:98
+msgid "Video category"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-video.php:50
+msgid "Video Player"
+msgstr ""
+
+#: metaboxes/realgymcore-video-meta-settings.php:29
+msgid "Video URL"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-videos.php:50
+msgid "Videos Grid"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:51
+msgid "View Item"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:52
+msgid "View Items"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:67
+msgid "Waist"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:242
+msgid "Wed"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:186
+#: vc-components/output/realgymcore-vc-schedule.php:38
+#: vc-components/output/realgymcore-vc-timetable.php:52
+msgid "Wednesday"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:192
+msgid "Week day"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:96
+msgid "Weekdays header background color"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:102
+msgid "Weekdays header Text color"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:33
+msgid "Weekly"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:86
+#: vc-components/output/realgymcore-vc-calculator.php:80
+msgid "Weight"
+msgstr ""
+
+#: metaboxes/realgymcore-team-meta-settings.php:102
+msgid "Weight lifting"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:69
+msgid "Wellness"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:78
+msgid "Whistle"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:45
+msgid "Widgets in this area will be shown footer bottom . "
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:72
+msgid "Widgets in this area will be shown on all product pages . "
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:54
+msgid "Widgets in this area will be shown on single blog post."
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:81
+msgid "Widgets in this area will be shown on single class page."
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:90
+msgid "Widgets in this area will be shown on single plan page."
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:63
+msgid "Widgets in this area will be shown on single video page."
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:36
+msgid "Widgets will be shown on footer left area . "
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:74
+msgid "With Cursor"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-post.php:75
+msgid "With Dots"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:37
+msgid "Wrap with Container?"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:35
+msgid "Yearly"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:29
+#: inc/functions/realgymcore-vc-elements.php:39
+#: inc/functions/realgymcore-vc-elements.php:85
+#: inc/functions/realgymcore-vc-elements.php:234
+#: inc/functions/realgymcore-vc-elements.php:248
+#: inc/functions/realgymcore-vc-elements.php:281
+#: vc-components/mapping/class-realgymcore-vc-blog.php:78
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:82
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:88
+#: vc-components/mapping/class-realgymcore-vc-post.php:100
+#: vc-components/mapping/class-realgymcore-vc-post.php:130
+#: vc-components/mapping/class-realgymcore-vc-post.php:151
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:82
+#: vc-components/mapping/class-realgymcore-vc-videos.php:70
+msgid "Yes, please"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:74
+msgid "Yoga Ball"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:75
+msgid "Yoga Mat"
+msgstr ""
+
+#: inc/classes/class-realgymcore-constants.php:53
+msgid "Yoga Position"
+msgstr ""
+
+#: metaboxes/realgymcore-video-meta-settings.php:30
+msgid ""
+"You can enter direct link to video file. YouTube and Vimeo URL also "
+"supported."
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:218
+msgid "Zero Gym Button Style"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:303
+msgid "Zero Gym Custom Style"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:302
+msgid "Zero Gym Default Style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-featured-products.php:55
+msgid "Zero Gym Featured Products"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:194
+msgid "Zero Gym Heading Style"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-template-block.php:48
+msgid "Zero Gym Templates Block"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:205
+msgid "Zero Gym Text Transform"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:259
+msgid "Zero Gym Videos"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-applications.php:60
+#: vc-components/mapping/class-realgymcore-vc-blog.php:60
+#: vc-components/mapping/class-realgymcore-vc-calculator.php:60
+#: vc-components/mapping/class-realgymcore-vc-counter.php:63
+#: vc-components/mapping/class-realgymcore-vc-faqs.php:67
+#: vc-components/mapping/class-realgymcore-vc-featured-products.php:68
+#: vc-components/mapping/class-realgymcore-vc-googlemap.php:62
+#: vc-components/mapping/class-realgymcore-vc-headingbutton.php:66
+#: vc-components/mapping/class-realgymcore-vc-iconbox.php:68
+#: vc-components/mapping/class-realgymcore-vc-latestposts.php:62
+#: vc-components/mapping/class-realgymcore-vc-list.php:63
+#: vc-components/mapping/class-realgymcore-vc-post.php:82
+#: vc-components/mapping/class-realgymcore-vc-pricingplans.php:66
+#: vc-components/mapping/class-realgymcore-vc-schedule.php:63
+#: vc-components/mapping/class-realgymcore-vc-slider.php:62
+#: vc-components/mapping/class-realgymcore-vc-team.php:62
+#: vc-components/mapping/class-realgymcore-vc-template-block.php:60
+#: vc-components/mapping/class-realgymcore-vc-testimonials.php:75
+#: vc-components/mapping/class-realgymcore-vc-timetable.php:65
+#: vc-components/mapping/class-realgymcore-vc-video.php:62
+#: vc-components/mapping/class-realgymcore-vc-videos.php:62
+msgid "RealGym"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:41
+msgid "RealGym Block Template"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:40
+msgid "RealGym Block Templates"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:25
+msgid "Realgym Class info"
+msgstr ""
+
+#: inc/classes/class-realgymcore-class-info-widget.php:26
+msgid ""
+"Realgym Class info as a Widget. The content will be shown only on class "
+"single page frontpage."
+msgstr ""
+
+#: inc/classes/class-realgymcore-classes-list-widget.php:24
+msgid "Realgym Classes list"
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:25
+msgid "Realgym Contact us as a Widget."
+msgstr ""
+
+#: inc/classes/class-realgymcore-contact-us-widget.php:24
+msgid "Realgym Contact us info"
+msgstr ""
+
+#. Name of the plugin
+msgid "RealGym Core Plugin"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:34
+msgid "Realgym Footer"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:43
+msgid "Realgym Footer Bottom"
+msgstr ""
+
+#: inc/functions/realgymcore-vc-elements.php:20
+msgid "RealGym Options"
+msgstr ""
+
+#: metaboxes/realgymcore-pricing-plan-meta-settings.php:26
+msgid "RealGym Plan Features Settings"
+msgstr ""
+
+#: inc/classes/class-realgymcore-plans-list-widget.php:24
+msgid "Realgym Plans list"
+msgstr ""
+
+#: inc/classes/class-realgymcore-categories-widget.php:25
+msgid "RealGym Post Categories"
+msgstr ""
+
+#: inc/classes/class-realgymcore-product-brands-filter-widget.php:24
+msgid "RealGym Product Brands Filter"
+msgstr ""
+
+#: inc/classes/class-realgymcore-recent-posts-widget.php:25
+msgid "RealGym Recent posts"
+msgstr ""
+
+#: inc/classes/class-realgymcore-search-widget.php:25
+msgid "RealGym Search"
+msgstr ""
+
+#: metaboxes/realgymcore-classes-meta-settings.php:41
+#: metaboxes/realgymcore-testimonials-meta-settings.php:22
+#: metaboxes/realgymcore-video-meta-settings.php:16
+msgid "RealGym Settings"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:70
+msgid "Realgym Shop Sidebar"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:52
+msgid "Realgym Single Blog Sidebar"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:79
+msgid "Realgym Single Class Sidebar"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:88
+msgid "Realgym Single Plan Sidebar"
+msgstr ""
+
+#: widgets/class-realgymcore-sidebars.php:61
+msgid "Realgym Single Video Sidebar"
+msgstr ""
+
+#: inc/classes/class-realgymcore-tag-cloud-widget.php:25
+msgid "RealGym Tag Cloud"
+msgstr ""
+
+#: admin/classes/class-realgymcore-template-builder.php:67
+msgid "RealGym Template Builder"
+msgstr ""
+
+#: inc/classes/class-realgymcore-video-categories-widget.php:25
+msgid "RealGym Video Categories"
+msgstr ""
+
+#: vc-components/mapping/class-realgymcore-vc-featured-products.php:67
+msgid "RealGym Woocommerce Featured Products"
+msgstr ""

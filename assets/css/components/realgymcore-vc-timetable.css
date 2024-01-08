@@ -1,0 +1,68 @@
+.realgymcore-timetable {
+
+}
+.realgymcore-timetable .fi-rr-clock-three {
+	font-size: 36px;
+	vertical-align: middle;
+}
+.realgymcore_link {
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
+
+.realgymcore-timetable {
+	border-bottom-width: unset;
+}
+
+.realgymcore-timetable a {
+	text-decoration: none;
+}
+
+.realgymcore-timetable th {
+	text-align: center;
+}
+
+.realgymcore-timetable tr {
+	border: none;
+	vertical-align: middle;
+}
+
+.realgymcore-timetable .table > :not(caption) > * > * {
+	border-bottom: none;
+}
+
+.realgymcore-timetable .table > :not(:last-child) > :last-child > * {
+	border-bottom-color: transparent;
+}
+
+.realgymcore-timetable .table td {
+	background-color: var(--realgym-bg-tertiary-color);
+	margin: 12px;
+	padding: 12px 8px;
+}
+
+.realgymcore-timetable .table {
+	border-collapse: separate;
+	border-spacing: 10px;
+	text-align: center;
+	margin: 0;
+}
+
+.realgymcore-timetable .table th, .realgymcore-timetable .table td {
+	overflow: hidden;
+	height: 80px;
+	min-width: 100px;
+	max-width: 100px;
+	font: var(--realgym-default-font);
+	background: var( --e-global-color-primary );
+}
+
+
+.realgymcore-timetable .table td a,
+.realgymcore-timetable .table td div {
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}

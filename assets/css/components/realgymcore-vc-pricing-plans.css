@@ -1,0 +1,221 @@
+.realgymcore-plan {
+	margin-top: -55px;
+}
+.realgymcore-plan-card-icon {
+	display: inline-block;
+	margin-right: 12px;
+}
+.realgymcore-pricing-item {
+	margin-bottom: 30px;
+}
+.realgymcore-pricing-item .realgymcore-card-content {
+	position: relative;
+	padding: 30px;
+}
+.realgymcore-pricing-item .realgymcore-card-content.realgym-bg-dark {
+	background-color: var(--realgym-bg-primary-color);
+}
+.realgym-vc-section-secondary .realgymcore-pricing-item .realgymcore-card-content::before {
+	background-color: var(--realgym-bg-primary-color);
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.realgymcore-pricing-item .realgymcore-card-img {
+	margin-bottom: 0;
+}
+.realgymcore-pricing-item .realgymcore-card-img img {
+	height: 220px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	width: 100%;
+}
+.realgymcore-pricing-item .realgymcore-status {
+	color: var(--realgym-primary-color);
+	margin-bottom: 12px;
+	position: relative;
+}
+.realgymcore-pricing-item .realgymcore-card-title {
+	margin-bottom: 20px;
+	max-width: unset;
+}
+.realgymcore-pricing-item .realgymcore-card-list {
+	padding-left: 0;
+	margin-bottom: 30px;
+	opacity: 0.8;
+	list-style: none;
+}
+.realgymcore-pricing-item .realgymcore-card-list li {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.realgymcore-card-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+.realgymcore-plan .nav-pills .nav-link {
+	position: relative;
+	overflow: hidden;
+	font: var(--realgym-display4);
+	font-size: 16px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 13px 30px 13px 30px;
+	border-radius: var(--realgym-btn-br);
+	background: transparent;
+	border: 1px solid transparent;
+	color: var(--realgym-secondary-color-inverse);
+	-webkit-transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
+}
+.realgymcore-plan .nav-pills .nav-link span {
+	position: relative;
+	z-index: 2;
+}
+.realgymcore-plan .nav-pills .nav-link.active {
+	color: var(--realgym-btn-bg-hover);
+	border-color: var(--realgym-btn-bg);
+	background-color: transparent;
+}
+.realgymcore-plan .nav-pills {
+	margin: 0 !important;
+	padding-left: 0;
+	list-style: none;
+	z-index: 10;
+}
+.realgymcore-plan .nav-pills .nav-link:hover {
+	color: var(--realgym-btn-bg);
+}
+.realgymcore-plan .realgymcore-card-icon {
+	position: absolute;
+	bottom: -47.5px;
+	left: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: 95px;
+	height: 95px;
+	background-color: var(--realgym-bg-primary-color);
+}
+.realgymcore-plan .realgymcore-card-icon [class^="flaticon-"]:before,
+.realgymcore-plan .realgymcore-card-icon [class*=" flaticon-"]:before,
+.realgymcore-plan .realgymcore-card-icon [class^="flaticon-"]:after,
+.realgymcore-plan .realgymcore-card-icon [class*=" flaticon-"]:after {
+	font-size: 54px;
+	color: var(--realgym-primary-color);
+	font-weight: 600;
+}
+.realgymcore-card-price {
+	color: var(--realgym-secondary-color-inverse);
+}
+.realgymcore-card-btn span {
+	position: relative;
+	z-index: 2;
+}
+.realgymcore-popular-content {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: var(--realgym-primary-color);
+	color: var(--realgym-primary-color-inverse);
+	padding: 10px 26px;
+}
+.realgymcore-popular-content:before {
+	content: "";
+	position: absolute;
+	left: -23PX;
+	bottom: 0;
+	TOP: 0;
+	border: 15px solid transparent;
+	border-bottom: 32px solid var(--realgym-primary-color);
+	border-right: 8px solid var(--realgym-primary-color);
+}
+.realgymcore-popular-content:after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background-color: var(--realgym-primary-color);
+	border-radius: 4px;
+}
+.realgymcore-plan .tab-pane.active.show {
+	display: block;
+}
+.realgymcore-plan .tab-pane {
+	display: none;
+}
+.realgymcore-popular-icon {
+	margin-right: 10px;
+}
+.realgymcore-pricing-item .realgymcore-card-content.realgym-pricing-opacity::before {
+	opacity: 0.8;
+}
+.realgymcore-pricing-item .realgymcore-card-content::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: var(--realgym-bg-secondary-color);
+	-webkit-box-shadow: 0 4px 10px rgb(0 0 0 / 35%);
+	box-shadow: 0 4px 10px rgb(0 0 0 / 35%);
+}
+@media (min-width: 1200px) {
+	.realgymcore-plan .row>div:nth-last-child(1) .realgymcore-card, .realgymcore-plan .row>div:nth-last-child(2) .realgymcore-card, .realgymcore-plan .row>div:nth-last-child(3) .realgymcore-card {
+		margin-bottom: 0;
+	}
+	.realgymcore-plan-column-top.realgymcore-plan .row>div:nth-last-child(3) .realgymcore-card {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 991px) {
+	.realgymcore-pricing-item .realgymcore-card-img img {
+		max-height: 400px;
+	}
+	.realgymcore-pricing-item .realgymcore-card-title {
+		min-height: 0;
+		margin-bottom: 30px;
+	}
+	.realgymcore-pricing-item .realgymcore-card-list {
+		margin-bottom: 40px;
+		min-height: unset;
+	}
+}
+@media (max-width: 767px) {
+	.realgymcore-plan .row {
+		display: block;
+		padding-bottom: 20px;
+	}
+	.realgymcore-plan .realgymcore-pricing-item .realgymcore-card-content {
+		padding: 25px;
+	}
+	.realgymcore-plan {
+		margin-top: 30px;
+	}
+	.realgymcore-plan .nav-pills {
+		margin-bottom: 35px !important;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.realgymcore-plan .nav-pills .nav-item {
+		width: 33.3%;
+	}
+	.realgymcore-plan .nav-pills .nav-link {
+		width: 100%;
+		padding: 13px 5px;
+	}
+}

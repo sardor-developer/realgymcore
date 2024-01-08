@@ -1,0 +1,180 @@
+.realgymcore-card {
+	color: var(--realgym-secondary-color-inverse);
+	margin-bottom: 50px;
+}
+.realgymcore-posts .col-lg-4:nth-last-child(-n+3) .realgymcore-card {
+	margin-bottom: 0;
+}
+.swiper-slide .realgymcore-card {
+	margin-bottom: 0;
+}
+.realgymcore-card-img {
+	position: relative;
+}
+.realgymcore-card-img img {
+	width: 100%;
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.realgymcore-card-icon {
+	position: absolute;
+	bottom: -47.5px;
+	left: 30px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	width: 95px;
+	height: 95px;
+	background-color: var(--realgym-bg-primary-color);
+}
+.realgymcore-card-icon i {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+.realgymcore-card-icon [class^="flaticon-"]:before,
+.realgymcore-card-icon [class*=" flaticon-"]:before,
+.realgymcore-card-icon [class^="flaticon-"]:after,
+.realgymcore-card-icon [class*=" flaticon-"]:after {
+	font-size: 54px;
+	color: var(--realgym-primary-color);
+	font-weight: 600;
+}
+.realgymcore-progress {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: var(--realgym-primary-color);
+}
+.realgymcore-progress-bar {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	background-color: inherit;
+	gap: 3px;
+	margin-top: 4px;
+}
+.progress-fluid {
+	position: relative;
+	width: 10%;
+	height: 9px;
+	background-color: rgba(188, 254, 47, 0.1);
+	border-radius: 100px;
+	overflow: hidden;
+}
+.realgymcore-card-info {
+	position: relative;
+}
+.realgymcore-card-info:link, .realgymcore-card-info:visited, .realgymcore-card-info:hover {
+	text-decoration: none;
+}
+.realgymcore-socials ul {
+	padding: 0;
+	list-style: none;
+}
+.realgymcore-swiper-cursor, .realgymcore-swiper-cursor .swiper-slide {
+	cursor: url("../../images/slider-scroll.svg") 55 55, auto;
+}
+.realgymcore-swiper-slider .swiper .swiper-pagination-bullet {
+	width: 37px;
+	height: 8px;
+	background: #3B412E;
+	border-radius: 100px;
+	opacity: 1;
+	margin: 0 !important;
+}
+.realgymcore-swiper-slider .swiper .swiper-pagination-bullet-active {
+	background-color: var(--realgym-primary-color);
+}
+.realgymcore-swiper-slider .realgymcore-swiper-pagination {
+	margin-bottom: 40px;
+	position: static;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 8px;
+	-webkit-box-pack: end;
+		-ms-flex-pack: end;
+			justify-content: flex-end;
+}
+.realgymcore-card-btn {
+	padding: 16px 40px;
+	background: var(--realgym-btn-bg);
+	border-radius: 105px;
+	color: var(--realgym-btn-color);
+	-webkit-transition: .3s all;
+	-o-transition: .3s all;
+	transition: .3s all;
+}
+.realgymcore-card-btn:hover {
+	color: var(--realgym-btn-color-hover);
+	background-color: var(--realgym-btn-bg-hover);
+}
+.realgymcore-card-list li:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+/*== Min Tablet ==*/
+@media (min-width: 992px) {
+	.realgymcore-swiper-slider.realgymcore-swiper-cursor .realgymcore-swiper-pagination {
+		display: none;
+	}
+	.realgymcore-swiper-dots.realgymcore-swiper-slider {
+		margin-top: -48px;
+	}
+}
+
+/*== Min Tablet ==*/
+@media (max-width: 992px) {
+	.realgymcore-swiper-cursor {
+		margin-top: -40px;
+	}
+}
+
+
+/*==  Tablet ==*/
+@media (max-width: 768px) {
+	.realgymcore-swiper-slider .swiper {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+				flex-direction: column;
+	}
+	.realgymcore-swiper-slider .realgymcore-swiper-pagination {
+		-webkit-box-ordinal-group: 4;
+			-ms-flex-order: 3;
+				order: 3;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+	.realgymcore-swiper-cursor {
+		margin-top: 0;
+	}
+}
+
+/*== Mobile ==*/
+@media (max-width: 767px) {
+	.realgymcore-posts .row {
+		display: block;
+		padding-bottom: 20px;
+	}
+	.realgymcore-posts .col-lg-4:nth-last-child(-n+1) .realgymcore-card {
+		margin-bottom: 0;
+	}
+}
